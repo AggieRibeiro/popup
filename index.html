@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Janela Modal com JavaScript</title>
+</head>
+<body>
+    
+    <div onclick="openModal()" class="btn">Clique aqui</div>
+
+    <div id="modal-container" class="modal-container">
+        <div class="modal">
+            <button class="fechar" id="fechar">X</button>
+            <h1>Notas do Aluno</h1>
+            <div class="n">
+            <input type="number" placeholder="Nota 1" id="nota1">
+            </div>
+            <div class="n">
+            <input type="number" placeholder="Nota 2" id="nota2">
+            </div>
+            <div class="n">
+            <input type="number" placeholder="Nota 3" id="nota3">
+            </div>
+            <button onclick="calcular()" class="calculo">Calcular</button>
+            <p id="resultado" class="resultado"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
