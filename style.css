@@ -46,7 +46,7 @@ body{
 .modal{
     width: 60%;
     min-width:400px;
-    min-height: 200px;
+    min-height: 500px;
     background-color: #92c7f6d1;
     color: rgb(47, 75, 104);
     align-items: center;
